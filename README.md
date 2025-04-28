@@ -1,7 +1,6 @@
 # RAAPD2.0
 
 RAAPD: Real-time Anomaly Alert on Port Detector
-Unsupported image
 
 🛡️ Overview
 RAAPD is an advanced network security monitoring platform that provides comprehensive threat detection through continuous analysis of network traffic patterns. The system leverages machine learning algorithms to identify anomalies and potential security threats in real-time, protecting your organization's valuable data and network infrastructure.
@@ -34,7 +33,7 @@ Required environmental variables configured (see Configuration section)
 Setup Steps
 Clone the repository:
 
-git clone https://github.com/yourusername/raapd.git
+git clone https://github.com/MuhdSulthan/RAAPD2.0.git
 cd raapd
 Create and activate a virtual environment:
 
@@ -61,7 +60,7 @@ Access the web interface at http://localhost:5000
 RAAPD uses environment variables for configuration. Create a .env file in the project root with the following variables:
 
 # Database Configuration
-DATABASE_URL=postgresql://username:password@localhost/raapd_db
+DATABASE=postgresql
 # Email Notification Settings
 MAIL_SERVER=smtp.example.com
 MAIL_PORT=587
@@ -140,12 +139,13 @@ Create a feature branch (git checkout -b feature/amazing-feature)
 Commit your changes (git commit -m 'Add amazing feature')
 Push to the branch (git push origin feature/amazing-feature)
 Open a Pull Request
+
 📜 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 📧 Contact
-Project Maintainer - your.email@example.com
+Project Maintainer - muhdsulthan1@gmail.com
 
 Project Repository: https://github.com/yourusername/raapd
 
-RAAPD: Enhancing network security through intelligent monitoring and analysis.
+RAAPD: Real-Time Anomaly Alert on Port Detector
